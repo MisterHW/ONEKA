@@ -1,0 +1,2348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.0125" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="TSUB" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="100" name="Parts" color="7" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="10" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="0" y2="100" width="0.4064" layer="20"/>
+<wire x1="0" y1="100" x2="100" y2="100" width="0.4064" layer="20"/>
+<wire x1="100" y1="100" x2="100" y2="0" width="0.4064" layer="20"/>
+<wire x1="100" y1="0" x2="0" y2="0" width="0.4064" layer="20"/>
+<polygon width="0.1524" layer="103">
+<vertex x="31.5640125" y="60.6425"/>
+<vertex x="32.5102375" y="60.6425" curve="90"/>
+<vertex x="33.655" y="61.7872625"/>
+<vertex x="33.655" y="63.7404625" curve="90"/>
+<vertex x="32.3079625" y="65.0875"/>
+<vertex x="31.5640125" y="65.0875" curve="-90"/>
+<vertex x="31.115" y="65.5365125"/>
+<vertex x="31.115" y="65.5909875" curve="-90"/>
+<vertex x="31.5640125" y="66.04"/>
+<vertex x="36.4354625" y="66.04" curve="90"/>
+<vertex x="37.7825" y="67.3870375"/>
+<vertex x="37.7825" y="68.1309875" curve="-90"/>
+<vertex x="38.2315125" y="68.58"/>
+<vertex x="38.6034875" y="68.58" curve="-90"/>
+<vertex x="39.0525" y="68.1309875"/>
+<vertex x="39.0525" y="67.3870375" curve="90"/>
+<vertex x="40.3995375" y="66.04"/>
+<vertex x="42.1504625" y="66.04" curve="90"/>
+<vertex x="43.4975" y="67.3870375"/>
+<vertex x="43.4975" y="68.1309875" curve="-90"/>
+<vertex x="43.9465125" y="68.58"/>
+<vertex x="44.3184875" y="68.58" curve="-90"/>
+<vertex x="44.7675" y="68.1309875"/>
+<vertex x="44.7675" y="67.3870375" curve="90"/>
+<vertex x="46.1145375" y="66.04"/>
+<vertex x="47.8654625" y="66.04" curve="90"/>
+<vertex x="49.2125" y="67.3870375"/>
+<vertex x="49.2125" y="68.1309875" curve="-90"/>
+<vertex x="49.6615125" y="68.58"/>
+<vertex x="50.0334875" y="68.58" curve="-90"/>
+<vertex x="50.4825" y="68.1309875"/>
+<vertex x="50.4825" y="67.3870375" curve="90"/>
+<vertex x="51.8295375" y="66.04"/>
+<vertex x="53.5804625" y="66.04" curve="90"/>
+<vertex x="54.9275" y="67.3870375"/>
+<vertex x="54.9275" y="68.1309875" curve="-90"/>
+<vertex x="55.3765125" y="68.58"/>
+<vertex x="55.7484875" y="68.58" curve="-90"/>
+<vertex x="56.1975" y="68.1309875"/>
+<vertex x="56.1975" y="67.3870375" curve="90"/>
+<vertex x="57.5445375" y="66.04"/>
+<vertex x="59.2954625" y="66.04" curve="90"/>
+<vertex x="60.6425" y="67.3870375"/>
+<vertex x="60.6425" y="68.1309875" curve="-90"/>
+<vertex x="61.0915125" y="68.58"/>
+<vertex x="61.4634875" y="68.58" curve="-90"/>
+<vertex x="61.9125" y="68.1309875"/>
+<vertex x="61.9125" y="67.3870375" curve="90"/>
+<vertex x="63.2595375" y="66.04"/>
+<vertex x="65.0104625" y="66.04" curve="90"/>
+<vertex x="66.3575" y="67.3870375"/>
+<vertex x="66.3575" y="68.1309875" curve="-90"/>
+<vertex x="66.8065125" y="68.58"/>
+<vertex x="66.8609875" y="68.58" curve="-90"/>
+<vertex x="67.31" y="68.1309875"/>
+<vertex x="67.31" y="63.2595375" curve="90"/>
+<vertex x="68.6570375" y="61.9125"/>
+<vertex x="69.4009875" y="61.9125" curve="-90"/>
+<vertex x="69.85" y="61.4634875"/>
+<vertex x="69.85" y="61.2775" curve="-90"/>
+<vertex x="69.5325" y="60.96"/>
+<vertex x="68.6570375" y="60.96" curve="90"/>
+<vertex x="67.31" y="59.6129625"/>
+<vertex x="67.31" y="57.5445375" curve="90"/>
+<vertex x="68.6570375" y="56.1975"/>
+<vertex x="69.4009875" y="56.1975" curve="-90"/>
+<vertex x="69.85" y="55.7484875"/>
+<vertex x="69.85" y="55.3765125" curve="-90"/>
+<vertex x="69.4009875" y="54.9275"/>
+<vertex x="68.6570375" y="54.9275" curve="90"/>
+<vertex x="67.31" y="53.5804625"/>
+<vertex x="67.31" y="51.8295375" curve="90"/>
+<vertex x="68.6570375" y="50.4825"/>
+<vertex x="69.4009875" y="50.4825" curve="-90"/>
+<vertex x="69.85" y="50.0334875"/>
+<vertex x="69.85" y="49.6615125" curve="-90"/>
+<vertex x="69.4009875" y="49.2125"/>
+<vertex x="68.6570375" y="49.2125" curve="90"/>
+<vertex x="67.31" y="47.8654625"/>
+<vertex x="67.31" y="46.1145375" curve="90"/>
+<vertex x="68.6570375" y="44.7675"/>
+<vertex x="69.4009875" y="44.7675" curve="-90"/>
+<vertex x="69.85" y="44.3184875"/>
+<vertex x="69.85" y="43.9465125" curve="-90"/>
+<vertex x="69.4009875" y="43.4975"/>
+<vertex x="68.6570375" y="43.4975" curve="90"/>
+<vertex x="67.31" y="42.1504625"/>
+<vertex x="67.31" y="40.3995375" curve="90"/>
+<vertex x="68.6570375" y="39.0525"/>
+<vertex x="69.4009875" y="39.0525" curve="-90"/>
+<vertex x="69.85" y="38.6034875"/>
+<vertex x="69.85" y="38.1" curve="-90"/>
+<vertex x="69.5325" y="37.7825"/>
+<vertex x="68.6570375" y="37.7825" curve="90"/>
+<vertex x="67.31" y="36.4354625"/>
+<vertex x="67.31" y="34.6845375" curve="90"/>
+<vertex x="68.6570375" y="33.3375"/>
+<vertex x="69.4009875" y="33.3375" curve="-90"/>
+<vertex x="69.85" y="32.8884875"/>
+<vertex x="69.85" y="32.8340125" curve="-90"/>
+<vertex x="69.4009875" y="32.385"/>
+<vertex x="64.5295375" y="32.385" curve="90"/>
+<vertex x="63.1825" y="31.0379625"/>
+<vertex x="63.1825" y="30.2940125" curve="-90"/>
+<vertex x="62.7334875" y="29.845"/>
+<vertex x="62.3615125" y="29.845" curve="-90"/>
+<vertex x="61.9125" y="30.2940125"/>
+<vertex x="61.9125" y="31.0379625" curve="90"/>
+<vertex x="60.5654625" y="32.385"/>
+<vertex x="58.8145375" y="32.385" curve="90"/>
+<vertex x="57.4675" y="31.0379625"/>
+<vertex x="57.4675" y="30.2940125" curve="-90"/>
+<vertex x="57.0184875" y="29.845"/>
+<vertex x="56.6465125" y="29.845" curve="-90"/>
+<vertex x="56.1975" y="30.2940125"/>
+<vertex x="56.1975" y="31.0379625" curve="90"/>
+<vertex x="54.8504625" y="32.385"/>
+<vertex x="53.0995375" y="32.385" curve="90"/>
+<vertex x="51.7525" y="31.0379625"/>
+<vertex x="51.7525" y="30.2940125" curve="-90"/>
+<vertex x="51.3034875" y="29.845"/>
+<vertex x="50.9315125" y="29.845" curve="-90"/>
+<vertex x="50.4825" y="30.2940125"/>
+<vertex x="50.4825" y="31.0379625" curve="90"/>
+<vertex x="49.1354625" y="32.385"/>
+<vertex x="47.3845375" y="32.385" curve="90"/>
+<vertex x="46.0375" y="31.0379625"/>
+<vertex x="46.0375" y="30.2940125" curve="-90"/>
+<vertex x="45.5884875" y="29.845"/>
+<vertex x="45.2165125" y="29.845" curve="-90"/>
+<vertex x="44.7675" y="30.2940125"/>
+<vertex x="44.7675" y="31.0379625" curve="90"/>
+<vertex x="43.4204625" y="32.385"/>
+<vertex x="41.6695375" y="32.385" curve="90"/>
+<vertex x="40.3225" y="31.0379625"/>
+<vertex x="40.3225" y="30.2940125" curve="-90"/>
+<vertex x="39.8734875" y="29.845"/>
+<vertex x="39.5015125" y="29.845" curve="-90"/>
+<vertex x="39.0525" y="30.2940125"/>
+<vertex x="39.0525" y="31.0379625" curve="90"/>
+<vertex x="37.7054625" y="32.385"/>
+<vertex x="35.9545375" y="32.385" curve="90"/>
+<vertex x="34.6075" y="31.0379625"/>
+<vertex x="34.6075" y="30.2940125" curve="-90"/>
+<vertex x="34.1584875" y="29.845"/>
+<vertex x="34.1040125" y="29.845" curve="-90"/>
+<vertex x="33.655" y="30.2940125"/>
+<vertex x="33.655" y="35.1654625" curve="90"/>
+<vertex x="32.3079625" y="36.5125"/>
+<vertex x="31.5640125" y="36.5125" curve="-90"/>
+<vertex x="31.115" y="36.9615125"/>
+<vertex x="31.115" y="37.3334875" curve="-90"/>
+<vertex x="31.5640125" y="37.7825"/>
+<vertex x="32.3079625" y="37.7825" curve="90"/>
+<vertex x="33.655" y="39.1295375"/>
+<vertex x="33.655" y="40.8804625" curve="90"/>
+<vertex x="32.3079625" y="42.2275"/>
+<vertex x="31.5640125" y="42.2275" curve="-90"/>
+<vertex x="31.115" y="42.6765125"/>
+<vertex x="31.115" y="43.0484875" curve="-90"/>
+<vertex x="31.5640125" y="43.4975"/>
+<vertex x="32.3079625" y="43.4975" curve="90"/>
+<vertex x="33.655" y="44.8445375"/>
+<vertex x="33.655" y="46.5954625" curve="90"/>
+<vertex x="32.3079625" y="47.9425"/>
+<vertex x="31.5640125" y="47.9425" curve="-90"/>
+<vertex x="31.115" y="48.3915125"/>
+<vertex x="31.115" y="48.7634875" curve="-90"/>
+<vertex x="31.5640125" y="49.2125"/>
+<vertex x="32.3079625" y="49.2125" curve="90"/>
+<vertex x="33.655" y="50.5595375"/>
+<vertex x="33.655" y="52.3104625" curve="90"/>
+<vertex x="32.3079625" y="53.6575"/>
+<vertex x="31.5640125" y="53.6575" curve="-90"/>
+<vertex x="31.115" y="54.1065125"/>
+<vertex x="31.115" y="54.4784875" curve="-90"/>
+<vertex x="31.5640125" y="54.9275"/>
+<vertex x="32.3079625" y="54.9275" curve="90"/>
+<vertex x="33.655" y="56.2745375"/>
+<vertex x="33.655" y="58.0254625" curve="90"/>
+<vertex x="32.3079625" y="59.3725"/>
+<vertex x="31.5640125" y="59.3725" curve="-90"/>
+<vertex x="31.115" y="59.8215125"/>
+<vertex x="31.115" y="60.1934875" curve="-90"/>
+</polygon>
+<polygon width="0.1524" layer="103">
+<vertex x="0.635" y="65.7225"/>
+<vertex x="9.1304625" y="65.7225" curve="90"/>
+<vertex x="10.4775" y="67.0695375"/>
+<vertex x="10.4775" y="68.2625" curve="-90"/>
+<vertex x="10.795" y="68.58"/>
+<vertex x="11.43" y="68.58" curve="-90"/>
+<vertex x="11.7475" y="68.2625"/>
+<vertex x="11.7475" y="66.8672625" curve="90"/>
+<vertex x="12.8922625" y="65.7225"/>
+<vertex x="14.8454625" y="65.7225" curve="90"/>
+<vertex x="16.1925" y="67.0695375"/>
+<vertex x="16.1925" y="68.1309875" curve="-90"/>
+<vertex x="16.6415125" y="68.58"/>
+<vertex x="17.145" y="68.58" curve="-90"/>
+<vertex x="17.4625" y="68.2625"/>
+<vertex x="17.4625" y="67.0695375" curve="90"/>
+<vertex x="18.8095375" y="65.7225"/>
+<vertex x="20.5604625" y="65.7225" curve="90"/>
+<vertex x="21.9075" y="67.0695375"/>
+<vertex x="21.9075" y="68.1309875" curve="-90"/>
+<vertex x="22.3565125" y="68.58"/>
+<vertex x="23.9984875" y="68.58" curve="-90"/>
+<vertex x="24.4475" y="68.1309875"/>
+<vertex x="24.4475" y="33.7320375" curve="-90"/>
+<vertex x="23.1004625" y="32.385"/>
+<vertex x="20.0795375" y="32.385" curve="90"/>
+<vertex x="18.7325" y="31.0379625"/>
+<vertex x="18.7325" y="30.2940125" curve="-90"/>
+<vertex x="18.2834875" y="29.845"/>
+<vertex x="17.9115125" y="29.845" curve="-90"/>
+<vertex x="17.4625" y="30.2940125"/>
+<vertex x="17.4625" y="31.0379625" curve="90"/>
+<vertex x="16.1154625" y="32.385"/>
+<vertex x="14.3645375" y="32.385" curve="90"/>
+<vertex x="13.0175" y="31.0379625"/>
+<vertex x="13.0175" y="30.1625" curve="-90"/>
+<vertex x="12.7" y="29.845"/>
+<vertex x="12.1965125" y="29.845" curve="-90"/>
+<vertex x="11.7475" y="30.2940125"/>
+<vertex x="11.7475" y="31.0379625" curve="90"/>
+<vertex x="10.4004625" y="32.385"/>
+<vertex x="8.6495375" y="32.385" curve="90"/>
+<vertex x="7.3025" y="31.0379625"/>
+<vertex x="7.3025" y="30.2940125" curve="-90"/>
+<vertex x="6.8534875" y="29.845"/>
+<vertex x="0.635" y="29.845"/>
+</polygon>
+<polygon width="0.1524" layer="103">
+<vertex x="33.9725" y="0.635"/>
+<vertex x="33.9725" y="7.8604625" curve="90"/>
+<vertex x="32.6254625" y="9.2075"/>
+<vertex x="31.4325" y="9.2075" curve="-90"/>
+<vertex x="31.115" y="9.525"/>
+<vertex x="31.115" y="10.16" curve="-90"/>
+<vertex x="31.4325" y="10.4775"/>
+<vertex x="32.8277375" y="10.4775" curve="90"/>
+<vertex x="33.9725" y="11.6222625"/>
+<vertex x="33.9725" y="13.5754625" curve="90"/>
+<vertex x="32.6254625" y="14.9225"/>
+<vertex x="31.5640125" y="14.9225" curve="-90"/>
+<vertex x="31.115" y="15.3715125"/>
+<vertex x="31.115" y="15.875" curve="-90"/>
+<vertex x="31.4325" y="16.1925"/>
+<vertex x="32.6254625" y="16.1925" curve="90"/>
+<vertex x="33.9725" y="17.5395375"/>
+<vertex x="33.9725" y="19.2904625" curve="90"/>
+<vertex x="32.6254625" y="20.6375"/>
+<vertex x="31.5640125" y="20.6375" curve="-90"/>
+<vertex x="31.115" y="21.0865125"/>
+<vertex x="31.115" y="22.7284875" curve="-90"/>
+<vertex x="31.5640125" y="23.1775"/>
+<vertex x="65.9629625" y="23.1775" curve="-90"/>
+<vertex x="67.31" y="21.8304625"/>
+<vertex x="67.31" y="18.8095375" curve="90"/>
+<vertex x="68.6570375" y="17.4625"/>
+<vertex x="69.4009875" y="17.4625" curve="-90"/>
+<vertex x="69.85" y="17.0134875"/>
+<vertex x="69.85" y="16.6415125" curve="-90"/>
+<vertex x="69.4009875" y="16.1925"/>
+<vertex x="68.6570375" y="16.1925" curve="90"/>
+<vertex x="67.31" y="14.8454625"/>
+<vertex x="67.31" y="13.0945375" curve="90"/>
+<vertex x="68.6570375" y="11.7475"/>
+<vertex x="69.5325" y="11.7475" curve="-90"/>
+<vertex x="69.85" y="11.43"/>
+<vertex x="69.85" y="10.9265125" curve="-90"/>
+<vertex x="69.4009875" y="10.4775"/>
+<vertex x="68.6570375" y="10.4775" curve="90"/>
+<vertex x="67.31" y="9.1304625"/>
+<vertex x="67.31" y="7.3795375" curve="90"/>
+<vertex x="68.6570375" y="6.0325"/>
+<vertex x="69.4009875" y="6.0325" curve="-90"/>
+<vertex x="69.85" y="5.5834875"/>
+<vertex x="69.85" y="0.635"/>
+</polygon>
+<polygon width="0.1524" layer="103">
+<vertex x="99.3775" y="32.7025"/>
+<vertex x="91.8345375" y="32.7025" curve="90"/>
+<vertex x="90.4875" y="31.3554625"/>
+<vertex x="90.4875" y="30.1625" curve="-90"/>
+<vertex x="90.17" y="29.845"/>
+<vertex x="89.535" y="29.845" curve="-90"/>
+<vertex x="89.2175" y="30.1625"/>
+<vertex x="89.2175" y="31.5577375" curve="90"/>
+<vertex x="88.0727375" y="32.7025"/>
+<vertex x="86.1195375" y="32.7025" curve="90"/>
+<vertex x="84.7725" y="31.3554625"/>
+<vertex x="84.7725" y="30.2940125" curve="-90"/>
+<vertex x="84.3234875" y="29.845"/>
+<vertex x="83.82" y="29.845" curve="-90"/>
+<vertex x="83.5025" y="30.1625"/>
+<vertex x="83.5025" y="31.3554625" curve="90"/>
+<vertex x="82.1554625" y="32.7025"/>
+<vertex x="80.4045375" y="32.7025" curve="90"/>
+<vertex x="79.0575" y="31.3554625"/>
+<vertex x="79.0575" y="30.2940125" curve="-90"/>
+<vertex x="78.6084875" y="29.845"/>
+<vertex x="76.9665125" y="29.845" curve="-90"/>
+<vertex x="76.5175" y="30.2940125"/>
+<vertex x="76.5175" y="64.6929625" curve="-90"/>
+<vertex x="77.8645375" y="66.04"/>
+<vertex x="80.8854625" y="66.04" curve="90"/>
+<vertex x="82.2325" y="67.3870375"/>
+<vertex x="82.2325" y="68.1309875" curve="-90"/>
+<vertex x="82.6815125" y="68.58"/>
+<vertex x="83.0534875" y="68.58" curve="-90"/>
+<vertex x="83.5025" y="68.1309875"/>
+<vertex x="83.5025" y="67.3870375" curve="90"/>
+<vertex x="84.8495375" y="66.04"/>
+<vertex x="86.6004625" y="66.04" curve="90"/>
+<vertex x="87.9475" y="67.3870375"/>
+<vertex x="87.9475" y="68.2625" curve="-90"/>
+<vertex x="88.265" y="68.58"/>
+<vertex x="88.7684875" y="68.58" curve="-90"/>
+<vertex x="89.2175" y="68.1309875"/>
+<vertex x="89.2175" y="67.3870375" curve="90"/>
+<vertex x="90.5645375" y="66.04"/>
+<vertex x="92.3154625" y="66.04" curve="90"/>
+<vertex x="93.6625" y="67.3870375"/>
+<vertex x="93.6625" y="68.1309875" curve="-90"/>
+<vertex x="94.1115125" y="68.58"/>
+<vertex x="99.3775" y="68.58"/>
+</polygon>
+<polygon width="0.1524" layer="103">
+<vertex x="66.9925" y="99.3775"/>
+<vertex x="66.9925" y="90.5645375" curve="90"/>
+<vertex x="68.3395375" y="89.2175"/>
+<vertex x="69.5325" y="89.2175" curve="-90"/>
+<vertex x="69.85" y="88.9"/>
+<vertex x="69.85" y="88.265" curve="-90"/>
+<vertex x="69.5325" y="87.9475"/>
+<vertex x="68.1372625" y="87.9475" curve="90"/>
+<vertex x="66.9925" y="86.8027375"/>
+<vertex x="66.9925" y="84.8495375" curve="90"/>
+<vertex x="68.3395375" y="83.5025"/>
+<vertex x="69.4009875" y="83.5025" curve="-90"/>
+<vertex x="69.85" y="83.0534875"/>
+<vertex x="69.85" y="82.55" curve="-90"/>
+<vertex x="69.5325" y="82.2325"/>
+<vertex x="68.3395375" y="82.2325" curve="90"/>
+<vertex x="66.9925" y="80.8854625"/>
+<vertex x="66.9925" y="79.1345375" curve="90"/>
+<vertex x="68.3395375" y="77.7875"/>
+<vertex x="69.4009875" y="77.7875" curve="-90"/>
+<vertex x="69.85" y="77.3384875"/>
+<vertex x="69.85" y="75.6965125" curve="-90"/>
+<vertex x="69.4009875" y="75.2475"/>
+<vertex x="66.675" y="75.2475"/>
+<vertex x="35.0020375" y="75.2475" curve="-90"/>
+<vertex x="33.655" y="76.5945375"/>
+<vertex x="33.655" y="79.6154625" curve="90"/>
+<vertex x="32.3079625" y="80.9625"/>
+<vertex x="31.5640125" y="80.9625" curve="-90"/>
+<vertex x="31.115" y="81.4115125"/>
+<vertex x="31.115" y="81.7834875" curve="-90"/>
+<vertex x="31.5640125" y="82.2325"/>
+<vertex x="32.3079625" y="82.2325" curve="90"/>
+<vertex x="33.655" y="83.5795375"/>
+<vertex x="33.655" y="85.3304625" curve="90"/>
+<vertex x="32.3079625" y="86.6775"/>
+<vertex x="31.4325" y="86.6775" curve="-90"/>
+<vertex x="31.115" y="86.995"/>
+<vertex x="31.115" y="87.4984875" curve="-90"/>
+<vertex x="31.5640125" y="87.9475"/>
+<vertex x="32.3079625" y="87.9475" curve="90"/>
+<vertex x="33.655" y="89.2945375"/>
+<vertex x="33.655" y="91.0454625" curve="90"/>
+<vertex x="32.3079625" y="92.3925"/>
+<vertex x="31.5640125" y="92.3925" curve="-90"/>
+<vertex x="31.115" y="92.8415125"/>
+<vertex x="31.115" y="99.3775"/>
+</polygon>
+<rectangle x1="46.6725" y1="48.26" x2="49.2125" y2="48.895" layer="30"/>
+<rectangle x1="51.7525" y1="49.53" x2="54.2925" y2="50.165" layer="30"/>
+<rectangle x1="62.5475" y1="49.53" x2="65.0875" y2="50.165" layer="30"/>
+<rectangle x1="65.405" y1="46.6725" x2="67.945" y2="47.3075" layer="30" rot="R90"/>
+<rectangle x1="35.56" y1="48.26" x2="38.1" y2="48.895" layer="30" rot="R180"/>
+<rectangle x1="32.7025" y1="51.1175" x2="35.2425" y2="51.7525" layer="30" rot="R270"/>
+</plain>
+<libraries>
+<library name="custom-parts">
+<description>VISHAY Optocoupler</description>
+<packages>
+<package name="PG-TDSON-8">
+<description>&lt;b&gt;PG-TDSON-8&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.infineon.com/dgdl/BSC340N08NS3G_rev2.4.pdf?folderId=db3a304313b8b5a60113cee8763b02d7&amp;fileId=db3a30431add1d95011ae81c21f2563a"&gt; Data sheet &lt;/a&gt;</description>
+<wire x1="-3" y1="2.7" x2="3" y2="2.7" width="0.1016" layer="51"/>
+<wire x1="3" y1="2.7" x2="3" y2="-2.7" width="0.1016" layer="51"/>
+<wire x1="3" y1="-2.7" x2="-3" y2="-2.7" width="0.1016" layer="51"/>
+<wire x1="-3" y1="-2.7" x2="-3" y2="2.7" width="0.1016" layer="51"/>
+<smd name="1" x="-2.825" y="1.905" dx="1.3" dy="0.75" layer="1"/>
+<smd name="2" x="-2.825" y="0.635" dx="1.3" dy="0.75" layer="1"/>
+<smd name="3" x="-2.825" y="-0.635" dx="1.3" dy="0.75" layer="1"/>
+<smd name="4" x="-2.825" y="-1.905" dx="1.3" dy="0.75" layer="1"/>
+<smd name="5" x="2.825" y="-1.905" dx="1.3" dy="0.75" layer="1" rot="R180"/>
+<smd name="6" x="2.825" y="-0.635" dx="1.3" dy="0.75" layer="1" rot="R180"/>
+<smd name="7" x="2.825" y="0.635" dx="1.3" dy="0.75" layer="1" rot="R180"/>
+<smd name="8" x="2.825" y="1.905" dx="1.3" dy="0.75" layer="1" rot="R180"/>
+<smd name="TH" x="0.725" y="0" dx="4.7" dy="4.8" layer="1" rot="R180" cream="no"/>
+<text x="-3.556" y="2.921" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.556" y="-4.191" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.175" y1="1.651" x2="-3" y2="2.159" layer="51"/>
+<rectangle x1="-3.175" y1="0.381" x2="-3" y2="0.889" layer="51"/>
+<rectangle x1="-3.175" y1="-0.889" x2="-3" y2="-0.381" layer="51"/>
+<rectangle x1="-3.175" y1="-2.159" x2="-3" y2="-1.651" layer="51"/>
+<rectangle x1="3" y1="-2.159" x2="3.175" y2="-1.651" layer="51" rot="R180"/>
+<rectangle x1="3" y1="-0.889" x2="3.175" y2="-0.381" layer="51" rot="R180"/>
+<rectangle x1="3" y1="0.381" x2="3.175" y2="0.889" layer="51" rot="R180"/>
+<rectangle x1="3" y1="1.651" x2="3.175" y2="2.159" layer="51" rot="R180"/>
+<rectangle x1="0.889" y1="-2.159" x2="1.778" y2="-1.27" layer="31" rot="R180"/>
+<rectangle x1="-0.254" y1="-2.159" x2="0.635" y2="-1.27" layer="31" rot="R180"/>
+<rectangle x1="-1.397" y1="-2.159" x2="-0.508" y2="-1.27" layer="31" rot="R180"/>
+<rectangle x1="-1.397" y1="-1.016" x2="-0.508" y2="-0.127" layer="31" rot="R180"/>
+<rectangle x1="-1.397" y1="0.127" x2="-0.508" y2="1.016" layer="31" rot="R180"/>
+<rectangle x1="-1.397" y1="1.27" x2="-0.508" y2="2.159" layer="31" rot="R180"/>
+<rectangle x1="-0.254" y1="-1.016" x2="0.635" y2="-0.127" layer="31" rot="R180"/>
+<rectangle x1="-0.254" y1="0.127" x2="0.635" y2="1.016" layer="31" rot="R180"/>
+<rectangle x1="-0.254" y1="1.27" x2="0.635" y2="2.159" layer="31" rot="R180"/>
+<rectangle x1="0.889" y1="-1.016" x2="1.778" y2="-0.127" layer="31" rot="R180"/>
+<rectangle x1="0.889" y1="0.127" x2="1.778" y2="1.016" layer="31" rot="R180"/>
+<rectangle x1="0.889" y1="1.27" x2="1.778" y2="2.159" layer="31" rot="R180"/>
+</package>
+</packages>
+</library>
+<library name="Wuerth_Elektronik_Power_Elements_rev15c">
+<description>&lt;BR&gt;Wurth Elektronik - Power Elements&lt;br&gt;&lt;Hr&gt;
+&lt;BR&gt;&lt;BR&gt; 
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-405&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/eagle"&gt;http://www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither CadSoft nor WE-eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
+&lt;hr&gt;
+Eagle Version 6, Library Revision 2015b, 08.04.2015&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="25PINS_FULL_HAL">
+<pad name="1" x="-5.08" y="5.08" drill="1.45"/>
+<wire x1="-6.5" y1="6.5" x2="6.5" y2="6.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="6.5" x2="6.5" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="6.5" width="0.127" layer="21"/>
+<wire x1="-6.75" y1="6.75" x2="6.75" y2="6.75" width="0.127" layer="39"/>
+<wire x1="6.75" y1="6.75" x2="6.75" y2="-6.75" width="0.127" layer="39"/>
+<wire x1="6.75" y1="-6.75" x2="-6.75" y2="-6.75" width="0.127" layer="39"/>
+<wire x1="-6.75" y1="-6.75" x2="-6.75" y2="6.75" width="0.127" layer="39"/>
+<text x="-3.81" y="7.62" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-8.89" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="2" x="-2.54" y="5.08" drill="1.45"/>
+<pad name="3" x="0" y="5.08" drill="1.45"/>
+<pad name="4" x="2.54" y="5.08" drill="1.45"/>
+<pad name="5" x="5.08" y="5.08" drill="1.45"/>
+<pad name="6" x="5.08" y="2.54" drill="1.45"/>
+<pad name="7" x="2.54" y="2.54" drill="1.45"/>
+<pad name="8" x="0" y="2.54" drill="1.45"/>
+<pad name="9" x="-2.54" y="2.54" drill="1.45"/>
+<pad name="10" x="-5.08" y="2.54" drill="1.45"/>
+<pad name="11" x="-5.08" y="0" drill="1.45"/>
+<pad name="12" x="-2.54" y="0" drill="1.45"/>
+<pad name="13" x="0" y="0" drill="1.45"/>
+<pad name="14" x="2.54" y="0" drill="1.45"/>
+<pad name="15" x="5.08" y="0" drill="1.45"/>
+<pad name="16" x="5.08" y="-2.54" drill="1.45"/>
+<pad name="17" x="2.54" y="-2.54" drill="1.45"/>
+<pad name="18" x="0" y="-2.54" drill="1.45"/>
+<pad name="19" x="-2.54" y="-2.54" drill="1.45"/>
+<pad name="20" x="-5.08" y="-2.54" drill="1.45"/>
+<pad name="21" x="-5.08" y="-5.08" drill="1.45"/>
+<pad name="22" x="-2.54" y="-5.08" drill="1.45"/>
+<pad name="23" x="0" y="-5.08" drill="1.45"/>
+<pad name="24" x="2.54" y="-5.08" drill="1.45"/>
+<pad name="25" x="5.08" y="-5.08" drill="1.45"/>
+</package>
+</packages>
+</library>
+<library name="testpad">
+<description>&lt;b&gt;Test Pins/Pads&lt;/b&gt;&lt;p&gt;
+Cream on SMD OFF.&lt;br&gt;
+new: Attribute TP_SIGNAL_NAME&lt;br&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="TP12SQ">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<smd name="TP" x="0" y="0" dx="1.1998" dy="1.1998" layer="1" cream="no"/>
+<text x="-0.5999" y="0.65" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.508" y="-0.635" size="0.0254" layer="27">&gt;VALUE</text>
+<text x="0" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.508"/>
+</class>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="8mil"/>
+<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdSmd" value="8mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="8mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="10mil"/>
+<param name="msDrill" value="24mil"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkGrid" value="0"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="Q1" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="53.34" y="70.485" rot="R90"/>
+<element name="Q11" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="71.755" y="79.375"/>
+<element name="Q12" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="71.755" y="85.09"/>
+<element name="Q13" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="71.755" y="90.805"/>
+<element name="Q2" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="59.055" y="70.485" rot="R90"/>
+<element name="Q3" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="64.77" y="70.485" rot="R90"/>
+<element name="E1" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="59.055" y="83.185">
+<attribute name="FAMILY" value="WP-SHFU" x="59.055" y="83.185" size="1.778" layer="27" display="off"/>
+<attribute name="MF_PARTNO" value="7460719" x="59.055" y="83.185" size="1.778" layer="27" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="59.055" y="83.185" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="59.055" y="83.185" size="1.778" layer="27" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="59.055" y="83.185" size="1.778" layer="27" display="off"/>
+</element>
+<element name="E5" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="84.455" y="83.185">
+<attribute name="MF_PARTNO" value="7460719" x="84.455" y="83.185" size="1.778" layer="27" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="84.455" y="83.185" size="1.778" layer="27" display="off"/>
+<attribute name="FAMILY" value="WP-SHFU" x="84.455" y="83.185" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="84.455" y="83.185" size="1.778" layer="27" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="84.455" y="83.185" size="1.778" layer="27" display="off"/>
+</element>
+<element name="E2" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="59.055" y="57.785">
+<attribute name="MF_PARTNO" value="7460719" x="59.055" y="57.785" size="1.778" layer="27" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="59.055" y="57.785" size="1.778" layer="27" display="off"/>
+<attribute name="FAMILY" value="WP-SHFU" x="59.055" y="57.785" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="59.055" y="57.785" size="1.778" layer="27" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="59.055" y="57.785" size="1.778" layer="27" display="off"/>
+</element>
+<element name="Q21" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="71.755" y="63.5"/>
+<element name="Q31" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="80.645" y="70.485" rot="R90"/>
+<element name="Q22" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="71.755" y="57.785"/>
+<element name="Q32" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="86.36" y="70.485" rot="R90"/>
+<element name="Q23" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="71.755" y="52.07"/>
+<element name="Q33" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="92.075" y="70.485" rot="R90"/>
+<element name="E3" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="84.455" y="57.785">
+<attribute name="MF_PARTNO" value="7460719" x="84.455" y="57.785" size="1.778" layer="27" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="84.455" y="57.785" size="1.778" layer="27" display="off"/>
+<attribute name="FAMILY" value="WP-SHFU" x="84.455" y="57.785" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="84.455" y="57.785" size="1.778" layer="27" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="84.455" y="57.785" size="1.778" layer="27" display="off"/>
+</element>
+<element name="Q4" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="71.755" y="46.355"/>
+<element name="Q7" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="80.645" y="27.94" rot="R270"/>
+<element name="Q8" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="86.36" y="27.94" rot="R270"/>
+<element name="Q9" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="92.075" y="27.94" rot="R270"/>
+<element name="Q5" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="71.755" y="40.64"/>
+<element name="Q6" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="71.755" y="34.925"/>
+<element name="E4" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="84.455" y="40.64" rot="R270">
+<attribute name="FAMILY" value="WP-SHFU" x="84.455" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF_PARTNO" value="7460719" x="84.455" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="84.455" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="84.455" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="84.455" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="E6" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="84.455" y="15.24" rot="R270">
+<attribute name="MF_PARTNO" value="7460719" x="84.455" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="84.455" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FAMILY" value="WP-SHFU" x="84.455" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="84.455" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="84.455" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="E7" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="59.055" y="40.64" rot="R270">
+<attribute name="MF_PARTNO" value="7460719" x="59.055" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="59.055" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FAMILY" value="WP-SHFU" x="59.055" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="59.055" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="59.055" y="40.64" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="Q10" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="64.77" y="27.94" rot="R270"/>
+<element name="Q14" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="71.755" y="19.05"/>
+<element name="Q15" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="59.055" y="27.94" rot="R270"/>
+<element name="Q16" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="71.755" y="13.335"/>
+<element name="Q17" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="53.34" y="27.94" rot="R270"/>
+<element name="Q18" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="71.755" y="7.62"/>
+<element name="E8" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="59.055" y="15.24" rot="R270">
+<attribute name="MF_PARTNO" value="7460719" x="59.055" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="59.055" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="FAMILY" value="WP-SHFU" x="59.055" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="59.055" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="59.055" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="Q19" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="47.625" y="27.94" rot="R270"/>
+<element name="Q25" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="29.21" y="19.05" rot="R180"/>
+<element name="Q26" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="29.21" y="13.335" rot="R180"/>
+<element name="Q27" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="29.21" y="7.62" rot="R180"/>
+<element name="Q20" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="41.91" y="27.94" rot="R270"/>
+<element name="Q24" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="36.195" y="27.94" rot="R270"/>
+<element name="E9" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="41.91" y="15.24" rot="R180">
+<attribute name="FAMILY" value="WP-SHFU" x="41.91" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MF_PARTNO" value="7460719" x="41.91" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="41.91" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="41.91" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="41.91" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="E10" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="16.51" y="15.24" rot="R180">
+<attribute name="MF_PARTNO" value="7460719" x="16.51" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="16.51" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FAMILY" value="WP-SHFU" x="16.51" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="16.51" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="16.51" y="15.24" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="E11" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="41.91" y="40.64" rot="R180">
+<attribute name="MF_PARTNO" value="7460719" x="41.91" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="41.91" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FAMILY" value="WP-SHFU" x="41.91" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="41.91" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="41.91" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="Q28" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="29.21" y="34.925" rot="R180"/>
+<element name="Q29" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="20.32" y="27.94" rot="R270"/>
+<element name="Q30" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="29.21" y="40.64" rot="R180"/>
+<element name="Q34" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="14.605" y="27.94" rot="R270"/>
+<element name="Q35" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="29.21" y="46.355" rot="R180"/>
+<element name="Q36" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="8.89" y="27.94" rot="R270"/>
+<element name="E12" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="16.51" y="40.64" rot="R180">
+<attribute name="MF_PARTNO" value="7460719" x="16.51" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="16.51" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="FAMILY" value="WP-SHFU" x="16.51" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="16.51" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="16.51" y="40.64" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="Q37" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="29.21" y="52.07" rot="R180"/>
+<element name="Q40" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="20.32" y="70.485" rot="R90"/>
+<element name="Q41" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="14.605" y="70.485" rot="R90"/>
+<element name="Q42" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="8.89" y="70.485" rot="R90"/>
+<element name="Q38" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="29.21" y="57.785" rot="R180"/>
+<element name="Q39" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="29.21" y="63.5" rot="R180"/>
+<element name="E13" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="16.51" y="57.785" rot="R90">
+<attribute name="FAMILY" value="WP-SHFU" x="16.51" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MF_PARTNO" value="7460719" x="16.51" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="16.51" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="16.51" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="16.51" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="E14" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="16.51" y="83.185" rot="R90">
+<attribute name="MF_PARTNO" value="7460719" x="16.51" y="83.185" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="16.51" y="83.185" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FAMILY" value="WP-SHFU" x="16.51" y="83.185" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="16.51" y="83.185" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="16.51" y="83.185" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="E15" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="41.91" y="57.785" rot="R90">
+<attribute name="MF_PARTNO" value="7460719" x="41.91" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="41.91" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FAMILY" value="WP-SHFU" x="41.91" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="41.91" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="41.91" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="Q43" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="36.195" y="70.485" rot="R90"/>
+<element name="Q44" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="29.21" y="79.375" rot="R180"/>
+<element name="Q45" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="41.91" y="70.485" rot="R90"/>
+<element name="Q46" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="29.21" y="85.09" rot="R180"/>
+<element name="Q47" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="47.625" y="70.485" rot="R90"/>
+<element name="Q48" library="custom-parts" package="PG-TDSON-8" value="BSC011N03LS" x="29.21" y="90.805" rot="R180"/>
+<element name="E16" library="Wuerth_Elektronik_Power_Elements_rev15c" package="25PINS_FULL_HAL" value="7460719" x="41.91" y="83.185" rot="R90">
+<attribute name="MF_PARTNO" value="7460719" x="41.91" y="83.185" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="INFO" value="250 Amp M8 Terminal" x="41.91" y="83.185" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="FAMILY" value="WP-SHFU" x="41.91" y="83.185" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER" value="710-7460719" x="41.91" y="83.185" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFG" value="WUERTHELEKTRONIK" x="41.91" y="83.185" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="TP1" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="32.0675" y="9.8425" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="32.0675" y="9.8425" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP2" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="32.0675" y="15.5575" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="32.0675" y="15.5575" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP3" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="32.0675" y="21.2725" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="32.0675" y="21.2725" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP4" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="22.5425" y="67.6275" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="22.5425" y="67.6275" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP5" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="16.8275" y="67.6275" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="16.8275" y="67.6275" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP6" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="11.1125" y="67.6275" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="11.1125" y="67.6275" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP7" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="68.8975" y="77.1525" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="68.8975" y="77.1525" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP8" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="68.8975" y="82.8675" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="68.8975" y="82.8675" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP9" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="68.8975" y="88.5825" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="68.8975" y="88.5825" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP10" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="78.4225" y="30.7975" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="78.4225" y="30.7975" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP11" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="84.1375" y="30.7975" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="84.1375" y="30.7975" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP12" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="89.8525" y="30.7975" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="89.8525" y="30.7975" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP13" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="82.8675" y="67.6275" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="82.8675" y="67.6275" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP14" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="88.5825" y="67.6275" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="95.25" y="64.135" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP15" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="94.2975" y="67.6275" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="94.2975" y="64.135" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP16" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="68.8975" y="16.8275" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="75.565" y="9.8425" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP17" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="68.8975" y="11.1125" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="68.8975" y="4.1275" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP18" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="68.8975" y="5.3975" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="75.565" y="-5.08" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP19" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="18.0975" y="30.7975" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="18.0975" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP20" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="12.3825" y="30.7975" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="19.05" y="16.8275" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP21" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="6.6675" y="30.7975" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="6.6675" y="16.8275" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP22" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="32.0675" y="81.5975" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="38.735" y="64.135" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP23" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="32.0675" y="87.3125" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="32.0675" y="69.85" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP24" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="32.0675" y="93.0275" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="38.735" y="72.0725" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP25" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="32.0675" y="65.7225" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="32.0675" y="65.7225" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP26" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="32.0675" y="60.0075" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="38.735" y="56.515" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP27" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="32.0675" y="54.2925" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="32.0675" y="50.8" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP28" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="33.9725" y="30.7975" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="40.64" y="23.8125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP29" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="39.6875" y="30.7975" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="39.6875" y="23.8125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP30" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="45.4025" y="30.7975" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="52.07" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP31" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="68.8975" y="32.7025" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="68.8975" y="22.225" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP32" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="68.8975" y="38.4175" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="75.565" y="24.4475" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP33" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="68.8975" y="44.1325" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="68.8975" y="30.1625" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP34" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="55.5625" y="67.6275" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="62.23" y="50.165" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP35" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="66.9925" y="67.6275" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="66.9925" y="50.165" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP36" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="61.2775" y="67.6275" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="67.945" y="46.6725" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP37" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="32.0675" y="48.5775" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="32.0675" y="48.5775" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP38" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="32.0675" y="42.8625" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="38.735" y="39.37" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP39" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="32.0675" y="37.1475" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="32.0675" y="33.655" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP40" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="51.1175" y="30.7975" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="57.785" y="23.8125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP41" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="56.8325" y="30.7975" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="56.8325" y="23.8125" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP42" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="62.5475" y="30.7975" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="69.215" y="20.32" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP43" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="68.8975" y="49.8475" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="68.8975" y="39.37" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP44" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="68.8975" y="55.5625" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="75.565" y="41.5925" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP45" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="68.8975" y="61.2775" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="68.8975" y="47.3075" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP46" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="49.8475" y="67.6275" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="56.515" y="50.165" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP47" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="44.1325" y="67.6275" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="44.1325" y="50.165" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="TP48" library="testpad" package="TP12SQ" value="PTR1TP12SQ" x="38.4175" y="67.6275" rot="MR0">
+<attribute name="TP_SIGNAL_NAME" value="" x="45.085" y="46.6725" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+</elements>
+<signals>
+<signal name="VSS">
+<contactref element="Q2" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q2" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q2" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q1" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q1" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q1" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q3" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q3" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q3" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q21" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q21" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q21" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q22" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q22" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q22" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q23" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q23" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q23" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="E2" pad="7"/>
+<contactref element="E2" pad="21"/>
+<contactref element="E2" pad="8"/>
+<contactref element="E2" pad="9"/>
+<contactref element="E2" pad="17"/>
+<contactref element="E2" pad="22"/>
+<contactref element="E2" pad="13"/>
+<contactref element="E2" pad="19"/>
+<contactref element="E2" pad="3"/>
+<contactref element="E2" pad="5"/>
+<contactref element="E2" pad="18"/>
+<contactref element="E2" pad="23"/>
+<contactref element="E2" pad="24"/>
+<contactref element="E2" pad="15"/>
+<contactref element="E2" pad="1"/>
+<contactref element="E2" pad="4"/>
+<contactref element="E2" pad="6"/>
+<contactref element="E2" pad="14"/>
+<contactref element="E2" pad="10"/>
+<contactref element="E2" pad="20"/>
+<contactref element="E2" pad="25"/>
+<contactref element="E2" pad="16"/>
+<contactref element="E2" pad="11"/>
+<contactref element="E2" pad="2"/>
+<contactref element="E2" pad="12"/>
+<contactref element="Q5" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q5" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q5" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q4" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q4" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q4" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q6" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q6" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q6" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q10" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q10" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q10" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q15" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q15" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q15" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q17" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q17" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q17" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="E7" pad="7"/>
+<contactref element="E7" pad="21"/>
+<contactref element="E7" pad="8"/>
+<contactref element="E7" pad="9"/>
+<contactref element="E7" pad="17"/>
+<contactref element="E7" pad="22"/>
+<contactref element="E7" pad="13"/>
+<contactref element="E7" pad="19"/>
+<contactref element="E7" pad="3"/>
+<contactref element="E7" pad="5"/>
+<contactref element="E7" pad="18"/>
+<contactref element="E7" pad="23"/>
+<contactref element="E7" pad="24"/>
+<contactref element="E7" pad="15"/>
+<contactref element="E7" pad="1"/>
+<contactref element="E7" pad="4"/>
+<contactref element="E7" pad="6"/>
+<contactref element="E7" pad="14"/>
+<contactref element="E7" pad="10"/>
+<contactref element="E7" pad="20"/>
+<contactref element="E7" pad="25"/>
+<contactref element="E7" pad="16"/>
+<contactref element="E7" pad="11"/>
+<contactref element="E7" pad="2"/>
+<contactref element="E7" pad="12"/>
+<contactref element="Q20" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q20" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q20" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q19" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q19" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q19" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q24" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q24" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q24" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q28" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q28" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q28" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q30" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q30" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q30" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q35" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q35" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q35" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="E11" pad="7"/>
+<contactref element="E11" pad="21"/>
+<contactref element="E11" pad="8"/>
+<contactref element="E11" pad="9"/>
+<contactref element="E11" pad="17"/>
+<contactref element="E11" pad="22"/>
+<contactref element="E11" pad="13"/>
+<contactref element="E11" pad="19"/>
+<contactref element="E11" pad="3"/>
+<contactref element="E11" pad="5"/>
+<contactref element="E11" pad="18"/>
+<contactref element="E11" pad="23"/>
+<contactref element="E11" pad="24"/>
+<contactref element="E11" pad="15"/>
+<contactref element="E11" pad="1"/>
+<contactref element="E11" pad="4"/>
+<contactref element="E11" pad="6"/>
+<contactref element="E11" pad="14"/>
+<contactref element="E11" pad="10"/>
+<contactref element="E11" pad="20"/>
+<contactref element="E11" pad="25"/>
+<contactref element="E11" pad="16"/>
+<contactref element="E11" pad="11"/>
+<contactref element="E11" pad="2"/>
+<contactref element="E11" pad="12"/>
+<contactref element="Q38" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q38" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q38" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q37" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q37" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q37" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q39" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q39" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q39" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q43" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q43" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q43" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q45" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q45" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q45" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q47" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q47" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q47" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="E15" pad="7"/>
+<contactref element="E15" pad="21"/>
+<contactref element="E15" pad="8"/>
+<contactref element="E15" pad="9"/>
+<contactref element="E15" pad="17"/>
+<contactref element="E15" pad="22"/>
+<contactref element="E15" pad="13"/>
+<contactref element="E15" pad="19"/>
+<contactref element="E15" pad="3"/>
+<contactref element="E15" pad="5"/>
+<contactref element="E15" pad="18"/>
+<contactref element="E15" pad="23"/>
+<contactref element="E15" pad="24"/>
+<contactref element="E15" pad="15"/>
+<contactref element="E15" pad="1"/>
+<contactref element="E15" pad="4"/>
+<contactref element="E15" pad="6"/>
+<contactref element="E15" pad="14"/>
+<contactref element="E15" pad="10"/>
+<contactref element="E15" pad="20"/>
+<contactref element="E15" pad="25"/>
+<contactref element="E15" pad="16"/>
+<contactref element="E15" pad="11"/>
+<contactref element="E15" pad="2"/>
+<contactref element="E15" pad="12"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="31.115" y="68.58"/>
+<vertex x="69.85" y="68.58"/>
+<vertex x="69.85" y="29.845"/>
+<vertex x="31.115" y="29.845"/>
+</polygon>
+</signal>
+<signal name="VDD">
+<contactref element="Q12" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q12" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q12" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q12" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q12" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q33" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q33" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q33" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q33" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q33" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q11" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q11" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q11" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q11" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q11" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q13" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q13" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q13" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q13" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q13" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q32" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q32" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q32" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q32" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q32" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q31" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q31" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q31" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q31" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q31" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="E5" pad="7"/>
+<contactref element="E5" pad="21"/>
+<contactref element="E5" pad="8"/>
+<contactref element="E5" pad="9"/>
+<contactref element="E5" pad="17"/>
+<contactref element="E5" pad="22"/>
+<contactref element="E5" pad="13"/>
+<contactref element="E5" pad="19"/>
+<contactref element="E5" pad="3"/>
+<contactref element="E5" pad="5"/>
+<contactref element="E5" pad="18"/>
+<contactref element="E5" pad="23"/>
+<contactref element="E5" pad="24"/>
+<contactref element="E5" pad="15"/>
+<contactref element="E5" pad="1"/>
+<contactref element="E5" pad="4"/>
+<contactref element="E5" pad="6"/>
+<contactref element="E5" pad="14"/>
+<contactref element="E5" pad="10"/>
+<contactref element="E5" pad="20"/>
+<contactref element="E5" pad="25"/>
+<contactref element="E5" pad="16"/>
+<contactref element="E5" pad="11"/>
+<contactref element="E5" pad="2"/>
+<contactref element="E5" pad="12"/>
+<contactref element="Q8" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q8" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q8" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q8" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q8" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q18" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q18" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q18" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q18" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q18" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q7" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q7" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q7" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q7" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q7" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q9" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q9" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q9" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q9" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q9" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q16" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q16" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q16" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q16" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q16" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q14" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q14" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q14" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q14" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q14" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="E6" pad="7"/>
+<contactref element="E6" pad="21"/>
+<contactref element="E6" pad="8"/>
+<contactref element="E6" pad="9"/>
+<contactref element="E6" pad="17"/>
+<contactref element="E6" pad="22"/>
+<contactref element="E6" pad="13"/>
+<contactref element="E6" pad="19"/>
+<contactref element="E6" pad="3"/>
+<contactref element="E6" pad="5"/>
+<contactref element="E6" pad="18"/>
+<contactref element="E6" pad="23"/>
+<contactref element="E6" pad="24"/>
+<contactref element="E6" pad="15"/>
+<contactref element="E6" pad="1"/>
+<contactref element="E6" pad="4"/>
+<contactref element="E6" pad="6"/>
+<contactref element="E6" pad="14"/>
+<contactref element="E6" pad="10"/>
+<contactref element="E6" pad="20"/>
+<contactref element="E6" pad="25"/>
+<contactref element="E6" pad="16"/>
+<contactref element="E6" pad="11"/>
+<contactref element="E6" pad="2"/>
+<contactref element="E6" pad="12"/>
+<contactref element="Q26" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q26" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q26" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q26" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q26" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q36" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q36" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q36" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q36" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q36" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q25" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q25" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q25" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q25" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q25" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q27" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q27" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q27" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q27" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q27" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q34" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q34" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q34" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q34" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q34" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q29" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q29" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q29" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q29" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q29" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="E10" pad="7"/>
+<contactref element="E10" pad="21"/>
+<contactref element="E10" pad="8"/>
+<contactref element="E10" pad="9"/>
+<contactref element="E10" pad="17"/>
+<contactref element="E10" pad="22"/>
+<contactref element="E10" pad="13"/>
+<contactref element="E10" pad="19"/>
+<contactref element="E10" pad="3"/>
+<contactref element="E10" pad="5"/>
+<contactref element="E10" pad="18"/>
+<contactref element="E10" pad="23"/>
+<contactref element="E10" pad="24"/>
+<contactref element="E10" pad="15"/>
+<contactref element="E10" pad="1"/>
+<contactref element="E10" pad="4"/>
+<contactref element="E10" pad="6"/>
+<contactref element="E10" pad="14"/>
+<contactref element="E10" pad="10"/>
+<contactref element="E10" pad="20"/>
+<contactref element="E10" pad="25"/>
+<contactref element="E10" pad="16"/>
+<contactref element="E10" pad="11"/>
+<contactref element="E10" pad="2"/>
+<contactref element="E10" pad="12"/>
+<contactref element="Q41" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q41" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q41" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q41" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q41" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q48" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q48" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q48" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q48" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q48" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q40" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q40" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q40" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q40" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q40" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q42" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q42" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q42" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q42" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q42" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q46" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q46" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q46" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q46" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q46" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q44" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q44" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q44" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q44" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q44" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="E14" pad="7"/>
+<contactref element="E14" pad="21"/>
+<contactref element="E14" pad="8"/>
+<contactref element="E14" pad="9"/>
+<contactref element="E14" pad="17"/>
+<contactref element="E14" pad="22"/>
+<contactref element="E14" pad="13"/>
+<contactref element="E14" pad="19"/>
+<contactref element="E14" pad="3"/>
+<contactref element="E14" pad="5"/>
+<contactref element="E14" pad="18"/>
+<contactref element="E14" pad="23"/>
+<contactref element="E14" pad="24"/>
+<contactref element="E14" pad="15"/>
+<contactref element="E14" pad="1"/>
+<contactref element="E14" pad="4"/>
+<contactref element="E14" pad="6"/>
+<contactref element="E14" pad="14"/>
+<contactref element="E14" pad="10"/>
+<contactref element="E14" pad="20"/>
+<contactref element="E14" pad="25"/>
+<contactref element="E14" pad="16"/>
+<contactref element="E14" pad="11"/>
+<contactref element="E14" pad="2"/>
+<contactref element="E14" pad="12"/>
+<polygon width="0.1524" layer="1" thermals="no" rank="4">
+<vertex x="30.48" y="69.215"/>
+<vertex x="0.635" y="69.215"/>
+<vertex x="0.635" y="99.695"/>
+<vertex x="30.48" y="99.695"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no" rank="4">
+<vertex x="70.485" y="69.215"/>
+<vertex x="70.485" y="99.695"/>
+<vertex x="99.695" y="99.695"/>
+<vertex x="99.695" y="69.215"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no" rank="4">
+<vertex x="30.48" y="29.21"/>
+<vertex x="30.48" y="0.635"/>
+<vertex x="0.635" y="0.635"/>
+<vertex x="0.635" y="29.21"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no" rank="4">
+<vertex x="70.485" y="29.21"/>
+<vertex x="99.695" y="29.21"/>
+<vertex x="99.695" y="0.635"/>
+<vertex x="70.485" y="0.635"/>
+</polygon>
+<wire x1="28.485" y1="7.62" x2="72.48" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="80.645" y1="71.21" x2="80.645" y2="27.215" width="0" layer="19" extent="1-1"/>
+<wire x1="8.89" y1="71.21" x2="8.89" y2="27.215" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A">
+<contactref element="Q12" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q12" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q12" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q2" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q2" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q2" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q2" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q2" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q11" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q11" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q11" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q13" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q13" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q13" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q1" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q1" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q1" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q1" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q1" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q3" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q3" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q3" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q3" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q3" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="E1" pad="7"/>
+<contactref element="E1" pad="21"/>
+<contactref element="E1" pad="8"/>
+<contactref element="E1" pad="9"/>
+<contactref element="E1" pad="17"/>
+<contactref element="E1" pad="22"/>
+<contactref element="E1" pad="13"/>
+<contactref element="E1" pad="19"/>
+<contactref element="E1" pad="3"/>
+<contactref element="E1" pad="5"/>
+<contactref element="E1" pad="18"/>
+<contactref element="E1" pad="23"/>
+<contactref element="E1" pad="24"/>
+<contactref element="E1" pad="15"/>
+<contactref element="E1" pad="1"/>
+<contactref element="E1" pad="4"/>
+<contactref element="E1" pad="6"/>
+<contactref element="E1" pad="14"/>
+<contactref element="E1" pad="10"/>
+<contactref element="E1" pad="20"/>
+<contactref element="E1" pad="25"/>
+<contactref element="E1" pad="16"/>
+<contactref element="E1" pad="11"/>
+<contactref element="E1" pad="2"/>
+<contactref element="E1" pad="12"/>
+<contactref element="Q8" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q8" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q8" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q5" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q5" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q5" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q5" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q5" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q7" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q7" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q7" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q9" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q9" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q9" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q4" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q4" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q4" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q4" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q4" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q6" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q6" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q6" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q6" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q6" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="E4" pad="7"/>
+<contactref element="E4" pad="21"/>
+<contactref element="E4" pad="8"/>
+<contactref element="E4" pad="9"/>
+<contactref element="E4" pad="17"/>
+<contactref element="E4" pad="22"/>
+<contactref element="E4" pad="13"/>
+<contactref element="E4" pad="19"/>
+<contactref element="E4" pad="3"/>
+<contactref element="E4" pad="5"/>
+<contactref element="E4" pad="18"/>
+<contactref element="E4" pad="23"/>
+<contactref element="E4" pad="24"/>
+<contactref element="E4" pad="15"/>
+<contactref element="E4" pad="1"/>
+<contactref element="E4" pad="4"/>
+<contactref element="E4" pad="6"/>
+<contactref element="E4" pad="14"/>
+<contactref element="E4" pad="10"/>
+<contactref element="E4" pad="20"/>
+<contactref element="E4" pad="25"/>
+<contactref element="E4" pad="16"/>
+<contactref element="E4" pad="11"/>
+<contactref element="E4" pad="2"/>
+<contactref element="E4" pad="12"/>
+<contactref element="Q26" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q26" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q26" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q20" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q20" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q20" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q20" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q20" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q25" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q25" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q25" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q27" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q27" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q27" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q19" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q19" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q19" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q19" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q19" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q24" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q24" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q24" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q24" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q24" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="E9" pad="7"/>
+<contactref element="E9" pad="21"/>
+<contactref element="E9" pad="8"/>
+<contactref element="E9" pad="9"/>
+<contactref element="E9" pad="17"/>
+<contactref element="E9" pad="22"/>
+<contactref element="E9" pad="13"/>
+<contactref element="E9" pad="19"/>
+<contactref element="E9" pad="3"/>
+<contactref element="E9" pad="5"/>
+<contactref element="E9" pad="18"/>
+<contactref element="E9" pad="23"/>
+<contactref element="E9" pad="24"/>
+<contactref element="E9" pad="15"/>
+<contactref element="E9" pad="1"/>
+<contactref element="E9" pad="4"/>
+<contactref element="E9" pad="6"/>
+<contactref element="E9" pad="14"/>
+<contactref element="E9" pad="10"/>
+<contactref element="E9" pad="20"/>
+<contactref element="E9" pad="25"/>
+<contactref element="E9" pad="16"/>
+<contactref element="E9" pad="11"/>
+<contactref element="E9" pad="2"/>
+<contactref element="E9" pad="12"/>
+<contactref element="Q41" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q41" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q41" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q38" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q38" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q38" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q38" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q38" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q40" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q40" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q40" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q42" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q42" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q42" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q37" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q37" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q37" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q37" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q37" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q39" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q39" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q39" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q39" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q39" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="E13" pad="7"/>
+<contactref element="E13" pad="21"/>
+<contactref element="E13" pad="8"/>
+<contactref element="E13" pad="9"/>
+<contactref element="E13" pad="17"/>
+<contactref element="E13" pad="22"/>
+<contactref element="E13" pad="13"/>
+<contactref element="E13" pad="19"/>
+<contactref element="E13" pad="3"/>
+<contactref element="E13" pad="5"/>
+<contactref element="E13" pad="18"/>
+<contactref element="E13" pad="23"/>
+<contactref element="E13" pad="24"/>
+<contactref element="E13" pad="15"/>
+<contactref element="E13" pad="1"/>
+<contactref element="E13" pad="4"/>
+<contactref element="E13" pad="6"/>
+<contactref element="E13" pad="14"/>
+<contactref element="E13" pad="10"/>
+<contactref element="E13" pad="20"/>
+<contactref element="E13" pad="25"/>
+<contactref element="E13" pad="16"/>
+<contactref element="E13" pad="11"/>
+<contactref element="E13" pad="2"/>
+<contactref element="E13" pad="12"/>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="71.12" y="48.895"/>
+<vertex x="100.33" y="48.895"/>
+<vertex x="100.33" y="29.845"/>
+<vertex x="70.485" y="29.845"/>
+<vertex x="70.485" y="48.895"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="50.8" y="69.85"/>
+<vertex x="50.8" y="99.06"/>
+<vertex x="69.85" y="99.06"/>
+<vertex x="69.85" y="69.215"/>
+<vertex x="50.8" y="69.215"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="29.845" y="49.53"/>
+<vertex x="0.635" y="49.53"/>
+<vertex x="0.635" y="68.58"/>
+<vertex x="30.48" y="68.58"/>
+<vertex x="30.48" y="49.53"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no">
+<vertex x="50.165" y="28.575"/>
+<vertex x="50.165" y="-0.635"/>
+<vertex x="31.115" y="-0.635"/>
+<vertex x="31.115" y="29.21"/>
+<vertex x="50.165" y="29.21"/>
+</polygon>
+<wire x1="26.385" y1="50.165" x2="36.195" y2="27.215" width="0" layer="19" extent="1-1"/>
+<wire x1="51.435" y1="73.31" x2="28.485" y2="63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="72.48" y1="34.925" x2="49.53" y2="25.115" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="B">
+<contactref element="Q21" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q21" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q21" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q21" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q21" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q33" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q33" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q33" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q31" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q31" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q31" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q32" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q32" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q32" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q23" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q23" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q23" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q23" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q23" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q22" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q22" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q22" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q22" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q22" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="E3" pad="7"/>
+<contactref element="E3" pad="21"/>
+<contactref element="E3" pad="8"/>
+<contactref element="E3" pad="9"/>
+<contactref element="E3" pad="17"/>
+<contactref element="E3" pad="22"/>
+<contactref element="E3" pad="13"/>
+<contactref element="E3" pad="19"/>
+<contactref element="E3" pad="3"/>
+<contactref element="E3" pad="5"/>
+<contactref element="E3" pad="18"/>
+<contactref element="E3" pad="23"/>
+<contactref element="E3" pad="24"/>
+<contactref element="E3" pad="15"/>
+<contactref element="E3" pad="1"/>
+<contactref element="E3" pad="4"/>
+<contactref element="E3" pad="6"/>
+<contactref element="E3" pad="14"/>
+<contactref element="E3" pad="10"/>
+<contactref element="E3" pad="20"/>
+<contactref element="E3" pad="25"/>
+<contactref element="E3" pad="16"/>
+<contactref element="E3" pad="11"/>
+<contactref element="E3" pad="2"/>
+<contactref element="E3" pad="12"/>
+<contactref element="Q10" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q10" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q10" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q10" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q10" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q18" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q18" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q18" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q14" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q14" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q14" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q16" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q16" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q16" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q17" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q17" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q17" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q17" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q17" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q15" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q15" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q15" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q15" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q15" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="E8" pad="7"/>
+<contactref element="E8" pad="21"/>
+<contactref element="E8" pad="8"/>
+<contactref element="E8" pad="9"/>
+<contactref element="E8" pad="17"/>
+<contactref element="E8" pad="22"/>
+<contactref element="E8" pad="13"/>
+<contactref element="E8" pad="19"/>
+<contactref element="E8" pad="3"/>
+<contactref element="E8" pad="5"/>
+<contactref element="E8" pad="18"/>
+<contactref element="E8" pad="23"/>
+<contactref element="E8" pad="24"/>
+<contactref element="E8" pad="15"/>
+<contactref element="E8" pad="1"/>
+<contactref element="E8" pad="4"/>
+<contactref element="E8" pad="6"/>
+<contactref element="E8" pad="14"/>
+<contactref element="E8" pad="10"/>
+<contactref element="E8" pad="20"/>
+<contactref element="E8" pad="25"/>
+<contactref element="E8" pad="16"/>
+<contactref element="E8" pad="11"/>
+<contactref element="E8" pad="2"/>
+<contactref element="E8" pad="12"/>
+<contactref element="Q28" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q28" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q28" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q28" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q28" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q36" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q36" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q36" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q29" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q29" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q29" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q34" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q34" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q34" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q35" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q35" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q35" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q35" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q35" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q30" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q30" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q30" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q30" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q30" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="E12" pad="7"/>
+<contactref element="E12" pad="21"/>
+<contactref element="E12" pad="8"/>
+<contactref element="E12" pad="9"/>
+<contactref element="E12" pad="17"/>
+<contactref element="E12" pad="22"/>
+<contactref element="E12" pad="13"/>
+<contactref element="E12" pad="19"/>
+<contactref element="E12" pad="3"/>
+<contactref element="E12" pad="5"/>
+<contactref element="E12" pad="18"/>
+<contactref element="E12" pad="23"/>
+<contactref element="E12" pad="24"/>
+<contactref element="E12" pad="15"/>
+<contactref element="E12" pad="1"/>
+<contactref element="E12" pad="4"/>
+<contactref element="E12" pad="6"/>
+<contactref element="E12" pad="14"/>
+<contactref element="E12" pad="10"/>
+<contactref element="E12" pad="20"/>
+<contactref element="E12" pad="25"/>
+<contactref element="E12" pad="16"/>
+<contactref element="E12" pad="11"/>
+<contactref element="E12" pad="2"/>
+<contactref element="E12" pad="12"/>
+<contactref element="Q43" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q43" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q43" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q43" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q43" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q48" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q48" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q48" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q44" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q44" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q44" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q46" pad="1" route="any" routetag="G$1.S"/>
+<contactref element="Q46" pad="3" route="any" routetag="G$1.S"/>
+<contactref element="Q46" pad="2" route="any" routetag="G$1.S"/>
+<contactref element="Q47" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q47" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q47" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q47" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q47" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="Q45" pad="5" route="any" routetag="G$1.D"/>
+<contactref element="Q45" pad="TH" route="any" routetag="G$1.D"/>
+<contactref element="Q45" pad="8" route="any" routetag="G$1.D"/>
+<contactref element="Q45" pad="7" route="any" routetag="G$1.D"/>
+<contactref element="Q45" pad="6" route="any" routetag="G$1.D"/>
+<contactref element="E16" pad="7"/>
+<contactref element="E16" pad="21"/>
+<contactref element="E16" pad="8"/>
+<contactref element="E16" pad="9"/>
+<contactref element="E16" pad="17"/>
+<contactref element="E16" pad="22"/>
+<contactref element="E16" pad="13"/>
+<contactref element="E16" pad="19"/>
+<contactref element="E16" pad="3"/>
+<contactref element="E16" pad="5"/>
+<contactref element="E16" pad="18"/>
+<contactref element="E16" pad="23"/>
+<contactref element="E16" pad="24"/>
+<contactref element="E16" pad="15"/>
+<contactref element="E16" pad="1"/>
+<contactref element="E16" pad="4"/>
+<contactref element="E16" pad="6"/>
+<contactref element="E16" pad="14"/>
+<contactref element="E16" pad="10"/>
+<contactref element="E16" pad="20"/>
+<contactref element="E16" pad="25"/>
+<contactref element="E16" pad="16"/>
+<contactref element="E16" pad="11"/>
+<contactref element="E16" pad="2"/>
+<contactref element="E16" pad="12"/>
+<polygon width="0.1524" layer="1" thermals="no" rank="2">
+<vertex x="71.12" y="68.58"/>
+<vertex x="100.33" y="68.58"/>
+<vertex x="100.33" y="49.53"/>
+<vertex x="70.485" y="49.53"/>
+<vertex x="70.485" y="68.58"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no" rank="2">
+<vertex x="31.115" y="69.85"/>
+<vertex x="31.115" y="99.06"/>
+<vertex x="50.165" y="99.06"/>
+<vertex x="50.165" y="69.215"/>
+<vertex x="31.115" y="69.215"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no" rank="2">
+<vertex x="30.48" y="29.845"/>
+<vertex x="0" y="29.845"/>
+<vertex x="0" y="48.895"/>
+<vertex x="30.48" y="48.895"/>
+</polygon>
+<polygon width="0.1524" layer="1" thermals="no" rank="2">
+<vertex x="69.85" y="28.575"/>
+<vertex x="69.85" y="-0.635"/>
+<vertex x="50.8" y="-0.635"/>
+<vertex x="50.8" y="29.21"/>
+<vertex x="69.85" y="29.21"/>
+</polygon>
+<wire x1="28.485" y1="34.925" x2="51.435" y2="25.115" width="0" layer="19" extent="1-1"/>
+<wire x1="36.195" y1="71.21" x2="26.385" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="74.58" y1="50.165" x2="64.77" y2="27.215" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="HSA">
+<contactref element="Q40" pad="4"/>
+<contactref element="Q41" pad="4"/>
+<contactref element="Q42" pad="4"/>
+<contactref element="Q27" pad="4"/>
+<contactref element="Q26" pad="4"/>
+<contactref element="Q25" pad="4"/>
+<contactref element="Q9" pad="4"/>
+<contactref element="Q8" pad="4"/>
+<contactref element="Q7" pad="4"/>
+<contactref element="Q11" pad="4"/>
+<contactref element="Q12" pad="4"/>
+<contactref element="Q13" pad="4"/>
+<contactref element="TP1" pad="TP"/>
+<contactref element="TP12" pad="TP"/>
+<contactref element="TP11" pad="TP"/>
+<contactref element="TP10" pad="TP"/>
+<contactref element="TP9" pad="TP"/>
+<contactref element="TP8" pad="TP"/>
+<contactref element="TP7" pad="TP"/>
+<contactref element="TP6" pad="TP"/>
+<contactref element="TP5" pad="TP"/>
+<contactref element="TP4" pad="TP"/>
+<contactref element="TP3" pad="TP"/>
+<contactref element="TP2" pad="TP"/>
+<wire x1="32.0675" y1="21.2725" x2="33.9725" y2="21.2725" width="0.8128" layer="16"/>
+<wire x1="33.9725" y1="21.2725" x2="33.9725" y2="15.5575" width="0.8128" layer="16"/>
+<wire x1="33.9725" y1="15.5575" x2="33.9725" y2="11.43" width="0.8128" layer="16"/>
+<wire x1="33.9725" y1="11.43" x2="33.9725" y2="9.8425" width="0.8128" layer="16"/>
+<wire x1="33.9725" y1="9.8425" x2="32.0675" y2="9.8425" width="0.8128" layer="16"/>
+<wire x1="32.0675" y1="15.5575" x2="33.9725" y2="15.5575" width="0.8128" layer="16"/>
+<wire x1="78.4225" y1="30.7975" x2="78.4225" y2="33.02" width="0.8128" layer="16"/>
+<wire x1="78.4225" y1="33.02" x2="79.0575" y2="33.02" width="0.8128" layer="16"/>
+<wire x1="79.0575" y1="33.02" x2="84.1375" y2="33.02" width="0.8128" layer="16"/>
+<wire x1="84.1375" y1="33.02" x2="89.8525" y2="33.02" width="0.8128" layer="16"/>
+<wire x1="89.8525" y1="33.02" x2="89.8525" y2="30.7975" width="0.8128" layer="16"/>
+<wire x1="84.1375" y1="30.7975" x2="84.1375" y2="33.02" width="0.8128" layer="16"/>
+<wire x1="11.1125" y1="67.6275" x2="11.1125" y2="65.405" width="0.8128" layer="16"/>
+<wire x1="11.1125" y1="65.405" x2="16.8275" y2="65.405" width="0.8128" layer="16"/>
+<wire x1="16.8275" y1="65.405" x2="18.7325" y2="65.405" width="0.8128" layer="16"/>
+<wire x1="18.7325" y1="65.405" x2="22.5425" y2="65.405" width="0.8128" layer="16"/>
+<wire x1="22.5425" y1="65.405" x2="22.5425" y2="67.6275" width="0.8128" layer="16"/>
+<wire x1="16.8275" y1="67.6275" x2="16.8275" y2="65.405" width="0.8128" layer="16"/>
+<wire x1="68.8975" y1="88.5825" x2="66.675" y2="88.5825" width="0.8128" layer="16"/>
+<wire x1="66.675" y1="88.5825" x2="66.675" y2="82.8675" width="0.8128" layer="16"/>
+<wire x1="66.675" y1="82.8675" x2="66.675" y2="82.2325" width="0.8128" layer="16"/>
+<wire x1="66.675" y1="82.2325" x2="66.675" y2="77.1525" width="0.8128" layer="16"/>
+<wire x1="66.675" y1="77.1525" x2="68.8975" y2="77.1525" width="0.8128" layer="16"/>
+<wire x1="68.8975" y1="82.8675" x2="66.675" y2="82.8675" width="0.8128" layer="16"/>
+<wire x1="68.8975" y1="88.5825" x2="68.93" y2="88.9" width="0" layer="19" extent="1-16"/>
+<wire x1="68.93" y1="83.185" x2="68.8975" y2="82.8675" width="0" layer="19" extent="1-16"/>
+<wire x1="68.93" y1="77.47" x2="68.8975" y2="77.1525" width="0" layer="19" extent="1-16"/>
+<wire x1="78.4225" y1="33.02" x2="68.8975" y2="77.1525" width="0" layer="19" extent="16-16"/>
+<wire x1="90.17" y1="30.765" x2="89.8525" y2="30.7975" width="0" layer="19" extent="1-16"/>
+<wire x1="84.455" y1="30.765" x2="84.1375" y2="30.7975" width="0" layer="19" extent="1-16"/>
+<wire x1="78.74" y1="30.765" x2="78.4225" y2="30.7975" width="0" layer="19" extent="1-16"/>
+<wire x1="22.5425" y1="67.6275" x2="66.675" y2="77.1525" width="0" layer="19" extent="16-16"/>
+<wire x1="22.225" y1="67.66" x2="22.5425" y2="67.6275" width="0" layer="19" extent="1-16"/>
+<wire x1="16.51" y1="67.66" x2="16.8275" y2="67.6275" width="0" layer="19" extent="1-16"/>
+<wire x1="10.795" y1="67.66" x2="11.1125" y2="67.6275" width="0" layer="19" extent="1-16"/>
+<wire x1="32.0675" y1="21.2725" x2="22.5425" y2="65.405" width="0" layer="19" extent="16-16"/>
+<wire x1="32.035" y1="20.955" x2="32.0675" y2="21.2725" width="0" layer="19" extent="1-16"/>
+<wire x1="32.035" y1="15.24" x2="32.0675" y2="15.5575" width="0" layer="19" extent="1-16"/>
+<wire x1="32.035" y1="9.525" x2="32.0675" y2="9.8425" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="LSA">
+<contactref element="Q39" pad="4"/>
+<contactref element="Q38" pad="4"/>
+<contactref element="Q37" pad="4"/>
+<contactref element="Q24" pad="4"/>
+<contactref element="Q20" pad="4"/>
+<contactref element="Q19" pad="4"/>
+<contactref element="Q1" pad="4"/>
+<contactref element="Q2" pad="4"/>
+<contactref element="Q3" pad="4"/>
+<contactref element="Q6" pad="4"/>
+<contactref element="Q5" pad="4"/>
+<contactref element="Q4" pad="4"/>
+<contactref element="TP25" pad="TP"/>
+<contactref element="TP36" pad="TP"/>
+<contactref element="TP35" pad="TP"/>
+<contactref element="TP34" pad="TP"/>
+<contactref element="TP33" pad="TP"/>
+<contactref element="TP32" pad="TP"/>
+<contactref element="TP31" pad="TP"/>
+<contactref element="TP30" pad="TP"/>
+<contactref element="TP29" pad="TP"/>
+<contactref element="TP28" pad="TP"/>
+<contactref element="TP27" pad="TP"/>
+<contactref element="TP26" pad="TP"/>
+<wire x1="33.9725" y1="30.7975" x2="33.9725" y2="32.7025" width="0.8128" layer="16"/>
+<wire x1="33.9725" y1="32.7025" x2="39.6875" y2="32.7025" width="0.8128" layer="16"/>
+<wire x1="39.6875" y1="32.7025" x2="39.6875" y2="30.7975" width="0.8128" layer="16"/>
+<wire x1="45.4025" y1="30.7975" x2="45.4025" y2="32.7025" width="0.8128" layer="16"/>
+<wire x1="45.4025" y1="32.7025" x2="39.6875" y2="32.7025" width="0.8128" layer="16"/>
+<wire x1="66.9925" y1="67.6275" x2="66.9925" y2="65.7225" width="0.8128" layer="16"/>
+<wire x1="66.9925" y1="65.7225" x2="61.2775" y2="65.7225" width="0.8128" layer="16"/>
+<wire x1="61.2775" y1="65.7225" x2="55.5625" y2="65.7225" width="0.8128" layer="16"/>
+<wire x1="55.5625" y1="67.6275" x2="55.5625" y2="65.7225" width="0.8128" layer="16"/>
+<wire x1="61.2775" y1="67.6275" x2="61.2775" y2="65.7225" width="0.8128" layer="16"/>
+<wire x1="32.0675" y1="65.7225" x2="33.9725" y2="65.7225" width="0.8128" layer="16"/>
+<wire x1="33.9725" y1="65.7225" x2="33.9725" y2="60.0075" width="0.8128" layer="16"/>
+<wire x1="33.9725" y1="60.0075" x2="33.9725" y2="54.2925" width="0.8128" layer="16"/>
+<wire x1="33.9725" y1="54.2925" x2="32.0675" y2="54.2925" width="0.8128" layer="16"/>
+<wire x1="32.0675" y1="60.0075" x2="33.9725" y2="60.0075" width="0.8128" layer="16"/>
+<wire x1="68.8975" y1="44.1325" x2="66.675" y2="44.1325" width="0.8128" layer="16"/>
+<wire x1="66.675" y1="44.1325" x2="66.675" y2="38.4175" width="0.8128" layer="16"/>
+<wire x1="66.675" y1="38.4175" x2="66.675" y2="32.7025" width="0.8128" layer="16"/>
+<wire x1="66.675" y1="32.7025" x2="68.8975" y2="32.7025" width="0.8128" layer="16"/>
+<wire x1="68.8975" y1="38.4175" x2="66.675" y2="38.4175" width="0.8128" layer="16"/>
+<wire x1="45.4025" y1="30.7975" x2="45.4025" y2="32.7025" width="0.8128" layer="16"/>
+<wire x1="45.4025" y1="32.7025" x2="48.26" y2="32.7025" width="0.8128" layer="16"/>
+<wire x1="48.26" y1="32.7025" x2="49.8475" y2="34.29" width="0.8128" layer="16"/>
+<wire x1="49.8475" y1="34.29" x2="49.8475" y2="47.9425" width="0.8128" layer="16"/>
+<wire x1="49.8475" y1="47.9425" x2="49.2125" y2="48.5775" width="0.8128" layer="16"/>
+<wire x1="49.2125" y1="48.5775" x2="35.8775" y2="48.5775" width="0.8128" layer="16"/>
+<wire x1="33.9725" y1="50.4825" x2="33.9725" y2="54.2925" width="0.8128" layer="16"/>
+<wire x1="55.5625" y1="65.7225" x2="52.705" y2="65.7225" width="0.8128" layer="16"/>
+<wire x1="52.705" y1="65.7225" x2="51.1175" y2="64.135" width="0.8128" layer="16"/>
+<wire x1="51.1175" y1="64.135" x2="51.1175" y2="52.07" width="0.8128" layer="16"/>
+<wire x1="66.675" y1="32.7025" x2="66.675" y2="38.4175" width="0.8128" layer="16"/>
+<wire x1="66.675" y1="38.4175" x2="66.675" y2="44.1325" width="0.8128" layer="16"/>
+<wire x1="66.675" y1="44.1325" x2="66.675" y2="47.9425" width="0.8128" layer="16"/>
+<wire x1="64.77" y1="49.8475" x2="51.7525" y2="49.8475" width="0.8128" layer="16"/>
+<wire x1="51.1175" y1="52.07" x2="51.1175" y2="50.4825" width="0.8128" layer="16"/>
+<wire x1="51.1175" y1="50.4825" x2="51.7525" y2="49.8475" width="0.8128" layer="16"/>
+<wire x1="66.9925" y1="67.6275" x2="66.675" y2="67.66" width="0" layer="19" extent="1-16"/>
+<wire x1="60.96" y1="67.66" x2="61.2775" y2="67.6275" width="0" layer="19" extent="1-16"/>
+<wire x1="55.245" y1="67.66" x2="55.5625" y2="67.6275" width="0" layer="19" extent="1-16"/>
+<wire x1="66.675" y1="47.9425" x2="64.77" y2="49.8475" width="0" layer="19" extent="16-16"/>
+<wire x1="68.93" y1="44.45" x2="68.8975" y2="44.1325" width="0" layer="19" extent="1-16"/>
+<wire x1="68.93" y1="38.735" x2="68.8975" y2="38.4175" width="0" layer="19" extent="1-16"/>
+<wire x1="68.93" y1="33.02" x2="68.8975" y2="32.7025" width="0" layer="19" extent="1-16"/>
+<wire x1="49.2125" y1="48.5775" x2="51.1175" y2="50.4825" width="0" layer="19" extent="16-16"/>
+<wire x1="45.72" y1="30.765" x2="45.4025" y2="30.7975" width="0" layer="19" extent="1-16"/>
+<wire x1="40.005" y1="30.765" x2="39.6875" y2="30.7975" width="0" layer="19" extent="1-16"/>
+<wire x1="34.29" y1="30.765" x2="33.9725" y2="30.7975" width="0" layer="19" extent="1-16"/>
+<wire x1="33.9725" y1="50.4825" x2="35.8775" y2="48.5775" width="0" layer="19" extent="16-16"/>
+<wire x1="32.035" y1="65.405" x2="32.0675" y2="65.7225" width="0" layer="19" extent="1-16"/>
+<wire x1="32.035" y1="59.69" x2="32.0675" y2="60.0075" width="0" layer="19" extent="1-16"/>
+<wire x1="32.035" y1="53.975" x2="32.0675" y2="54.2925" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="HSB">
+<contactref element="Q48" pad="4"/>
+<contactref element="Q44" pad="4"/>
+<contactref element="Q46" pad="4"/>
+<contactref element="Q29" pad="4"/>
+<contactref element="Q36" pad="4"/>
+<contactref element="Q34" pad="4"/>
+<contactref element="Q14" pad="4"/>
+<contactref element="Q18" pad="4"/>
+<contactref element="Q16" pad="4"/>
+<contactref element="Q33" pad="4"/>
+<contactref element="Q31" pad="4"/>
+<contactref element="Q32" pad="4"/>
+<contactref element="TP13" pad="TP"/>
+<contactref element="TP24" pad="TP"/>
+<contactref element="TP23" pad="TP"/>
+<contactref element="TP22" pad="TP"/>
+<contactref element="TP21" pad="TP"/>
+<contactref element="TP20" pad="TP"/>
+<contactref element="TP19" pad="TP"/>
+<contactref element="TP18" pad="TP"/>
+<contactref element="TP17" pad="TP"/>
+<contactref element="TP16" pad="TP"/>
+<contactref element="TP15" pad="TP"/>
+<contactref element="TP14" pad="TP"/>
+<wire x1="68.8975" y1="16.8275" x2="66.9925" y2="16.8275" width="0.8128" layer="16"/>
+<wire x1="66.9925" y1="16.8275" x2="66.9925" y2="11.1125" width="0.8128" layer="16"/>
+<wire x1="66.9925" y1="11.1125" x2="66.9925" y2="7.3025" width="0.8128" layer="16"/>
+<wire x1="66.9925" y1="7.3025" x2="66.9925" y2="5.3975" width="0.8128" layer="16"/>
+<wire x1="66.9925" y1="5.3975" x2="68.8975" y2="5.3975" width="0.8128" layer="16"/>
+<wire x1="68.8975" y1="11.1125" x2="66.9925" y2="11.1125" width="0.8128" layer="16"/>
+<wire x1="82.8675" y1="67.6275" x2="82.8675" y2="65.405" width="0.8128" layer="16"/>
+<wire x1="82.8675" y1="65.405" x2="88.9" y2="65.405" width="0.8128" layer="16"/>
+<wire x1="88.9" y1="65.405" x2="92.075" y2="65.405" width="0.8128" layer="16"/>
+<wire x1="92.075" y1="65.405" x2="94.2975" y2="65.405" width="0.8128" layer="16"/>
+<wire x1="94.2975" y1="65.405" x2="94.2975" y2="67.6275" width="0.8128" layer="16"/>
+<wire x1="88.5825" y1="67.6275" x2="88.5825" y2="65.405" width="0.8128" layer="16"/>
+<wire x1="88.5825" y1="65.405" x2="88.9" y2="65.405" width="0.8128" layer="16"/>
+<wire x1="18.0975" y1="30.7975" x2="18.0975" y2="33.02" width="0.8128" layer="16"/>
+<wire x1="18.0975" y1="33.02" x2="16.8275" y2="33.02" width="0.8128" layer="16"/>
+<wire x1="16.8275" y1="33.02" x2="12.3825" y2="33.02" width="0.8128" layer="16"/>
+<wire x1="12.3825" y1="33.02" x2="6.6675" y2="33.02" width="0.8128" layer="16"/>
+<wire x1="6.6675" y1="33.02" x2="6.6675" y2="30.7975" width="0.8128" layer="16"/>
+<wire x1="12.3825" y1="30.7975" x2="12.3825" y2="33.02" width="0.8128" layer="16"/>
+<wire x1="32.0675" y1="93.0275" x2="34.29" y2="93.0275" width="0.8128" layer="16"/>
+<wire x1="34.29" y1="93.0275" x2="34.29" y2="86.36" width="0.8128" layer="16"/>
+<wire x1="34.29" y1="86.36" x2="34.29" y2="83.5025" width="0.8128" layer="16"/>
+<wire x1="34.29" y1="83.5025" x2="34.29" y2="81.5975" width="0.8128" layer="16"/>
+<wire x1="34.29" y1="81.5975" x2="32.0675" y2="81.5975" width="0.8128" layer="16"/>
+<wire x1="32.0675" y1="87.3125" x2="34.29" y2="87.3125" width="0.8128" layer="16"/>
+<wire x1="34.29" y1="87.3125" x2="34.29" y2="86.36" width="0.8128" layer="16"/>
+<wire x1="94.2975" y1="67.6275" x2="93.98" y2="67.66" width="0" layer="19" extent="1-16"/>
+<wire x1="88.265" y1="67.66" x2="88.5825" y2="67.6275" width="0" layer="19" extent="1-16"/>
+<wire x1="82.55" y1="67.66" x2="82.8675" y2="67.6275" width="0" layer="19" extent="1-16"/>
+<wire x1="34.29" y1="81.5975" x2="82.55" y2="67.66" width="0" layer="19" extent="1-16"/>
+<wire x1="32.035" y1="92.71" x2="32.0675" y2="93.0275" width="0" layer="19" extent="1-16"/>
+<wire x1="32.035" y1="86.995" x2="32.0675" y2="87.3125" width="0" layer="19" extent="1-16"/>
+<wire x1="32.035" y1="81.28" x2="32.0675" y2="81.5975" width="0" layer="19" extent="1-16"/>
+<wire x1="68.93" y1="17.145" x2="82.8675" y2="65.405" width="0" layer="19" extent="1-16"/>
+<wire x1="68.8975" y1="16.8275" x2="68.93" y2="17.145" width="0" layer="19" extent="1-16"/>
+<wire x1="68.93" y1="11.43" x2="68.8975" y2="11.1125" width="0" layer="19" extent="1-16"/>
+<wire x1="68.93" y1="5.715" x2="68.8975" y2="5.3975" width="0" layer="19" extent="1-16"/>
+<wire x1="18.0975" y1="33.02" x2="32.035" y2="81.28" width="0" layer="19" extent="1-16"/>
+<wire x1="18.415" y1="30.765" x2="18.0975" y2="30.7975" width="0" layer="19" extent="1-16"/>
+<wire x1="12.7" y1="30.765" x2="12.3825" y2="30.7975" width="0" layer="19" extent="1-16"/>
+<wire x1="6.985" y1="30.765" x2="6.6675" y2="30.7975" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="LSB">
+<contactref element="Q47" pad="4"/>
+<contactref element="Q45" pad="4"/>
+<contactref element="Q43" pad="4"/>
+<contactref element="Q28" pad="4"/>
+<contactref element="Q35" pad="4"/>
+<contactref element="Q30" pad="4"/>
+<contactref element="Q23" pad="4"/>
+<contactref element="Q21" pad="4"/>
+<contactref element="Q22" pad="4"/>
+<contactref element="Q10" pad="4"/>
+<contactref element="Q17" pad="4"/>
+<contactref element="Q15" pad="4"/>
+<contactref element="TP37" pad="TP"/>
+<contactref element="TP48" pad="TP"/>
+<contactref element="TP47" pad="TP"/>
+<contactref element="TP46" pad="TP"/>
+<contactref element="TP45" pad="TP"/>
+<contactref element="TP44" pad="TP"/>
+<contactref element="TP43" pad="TP"/>
+<contactref element="TP42" pad="TP"/>
+<contactref element="TP41" pad="TP"/>
+<contactref element="TP40" pad="TP"/>
+<contactref element="TP39" pad="TP"/>
+<contactref element="TP38" pad="TP"/>
+<wire x1="51.1175" y1="30.7975" x2="51.1175" y2="32.7025" width="0.8128" layer="16"/>
+<wire x1="51.1175" y1="32.7025" x2="56.8325" y2="32.7025" width="0.8128" layer="16"/>
+<wire x1="56.8325" y1="30.7975" x2="56.8325" y2="32.7025" width="0.8128" layer="16"/>
+<wire x1="62.5475" y1="30.7975" x2="62.5475" y2="32.7025" width="0.8128" layer="16"/>
+<wire x1="62.5475" y1="32.7025" x2="56.8325" y2="32.7025" width="0.8128" layer="16"/>
+<wire x1="32.0675" y1="48.5775" x2="33.9725" y2="48.5775" width="0.8128" layer="16"/>
+<wire x1="33.9725" y1="48.5775" x2="33.9725" y2="42.8625" width="0.8128" layer="16"/>
+<wire x1="33.9725" y1="42.8625" x2="33.9725" y2="37.1475" width="0.8128" layer="16"/>
+<wire x1="33.9725" y1="37.1475" x2="32.0675" y2="37.1475" width="0.8128" layer="16"/>
+<wire x1="32.0675" y1="42.8625" x2="33.9725" y2="42.8625" width="0.8128" layer="16"/>
+<wire x1="49.8475" y1="67.6275" x2="49.8475" y2="65.7225" width="0.8128" layer="16"/>
+<wire x1="49.8475" y1="65.7225" x2="44.1325" y2="65.7225" width="0.8128" layer="16"/>
+<wire x1="44.1325" y1="65.7225" x2="38.4175" y2="65.7225" width="0.8128" layer="16"/>
+<wire x1="38.4175" y1="65.7225" x2="38.4175" y2="67.6275" width="0.8128" layer="16"/>
+<wire x1="44.1325" y1="67.6275" x2="44.1325" y2="65.7225" width="0.8128" layer="16"/>
+<wire x1="68.8975" y1="61.2775" x2="66.675" y2="61.2775" width="0.8128" layer="16"/>
+<wire x1="66.675" y1="61.2775" x2="66.675" y2="55.5625" width="0.8128" layer="16"/>
+<wire x1="66.675" y1="55.5625" x2="66.675" y2="49.8475" width="0.8128" layer="16"/>
+<wire x1="66.675" y1="49.8475" x2="68.8975" y2="49.8475" width="0.8128" layer="16"/>
+<wire x1="68.8975" y1="55.5625" x2="66.675" y2="55.5625" width="0.8128" layer="16"/>
+<wire x1="33.9725" y1="48.5775" x2="35.2425" y2="49.8475" width="0.8128" layer="16"/>
+<wire x1="35.2425" y1="49.8475" x2="49.8475" y2="49.8475" width="0.8128" layer="16"/>
+<wire x1="65.405" y1="48.5775" x2="66.675" y2="49.8475" width="0.8128" layer="16"/>
+<wire x1="38.4175" y1="65.7225" x2="49.8475" y2="65.7225" width="0.8128" layer="16"/>
+<wire x1="49.8475" y1="65.7225" x2="49.8475" y2="52.3875" width="0.8128" layer="16"/>
+<wire x1="51.1175" y1="33.02" x2="51.1175" y2="32.7025" width="0.8128" layer="16"/>
+<wire x1="51.1175" y1="33.02" x2="51.1175" y2="48.5775" width="0.8128" layer="16"/>
+<wire x1="51.1175" y1="48.5775" x2="49.8475" y2="49.8475" width="0.8128" layer="16"/>
+<wire x1="49.8475" y1="52.3875" x2="49.8475" y2="49.8475" width="0.8128" layer="16"/>
+<wire x1="65.405" y1="48.5775" x2="51.1175" y2="48.5775" width="0.8128" layer="16"/>
+<wire x1="68.8975" y1="61.2775" x2="68.93" y2="61.595" width="0" layer="19" extent="1-16"/>
+<wire x1="68.93" y1="55.88" x2="68.8975" y2="55.5625" width="0" layer="19" extent="1-16"/>
+<wire x1="68.93" y1="50.165" x2="68.8975" y2="49.8475" width="0" layer="19" extent="1-16"/>
+<wire x1="49.53" y1="67.66" x2="49.8475" y2="67.6275" width="0" layer="19" extent="1-16"/>
+<wire x1="43.815" y1="67.66" x2="44.1325" y2="67.6275" width="0" layer="19" extent="1-16"/>
+<wire x1="38.1" y1="67.66" x2="38.4175" y2="67.6275" width="0" layer="19" extent="1-16"/>
+<wire x1="62.865" y1="30.765" x2="62.5475" y2="30.7975" width="0" layer="19" extent="1-16"/>
+<wire x1="57.15" y1="30.765" x2="56.8325" y2="30.7975" width="0" layer="19" extent="1-16"/>
+<wire x1="51.435" y1="30.765" x2="51.1175" y2="30.7975" width="0" layer="19" extent="1-16"/>
+<wire x1="32.035" y1="48.26" x2="32.0675" y2="48.5775" width="0" layer="19" extent="1-16"/>
+<wire x1="32.035" y1="42.545" x2="32.0675" y2="42.8625" width="0" layer="19" extent="1-16"/>
+<wire x1="32.035" y1="36.83" x2="32.0675" y2="37.1475" width="0" layer="19" extent="1-16"/>
+</signal>
+</signals>
+</board>
+</drawing>
+</eagle>
